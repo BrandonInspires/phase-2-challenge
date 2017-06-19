@@ -21,9 +21,20 @@ nav {
     float: left;
     border: 2px solid blue;
 }
+.navHeader {
+    display: block;
+    background-color: grey;
+    margin: 0;
+}
+li {
+    list-style: none;
+    text-align: left;
+    font-size: 1.2em;
+    display: block;
+}
 
 article {
-    height: 100vh;
+    height: 100%;
     width: 70vw;
     float: left;
     border: 2px solid red;
@@ -33,6 +44,20 @@ article button {
     float: right;
 }
 
-li {
-    list-style: none;
+article h1 {
+    font-size: 3em;
+    margin: 0
+}
+
+td, tr, table {
+    padding: 10px;
+}
+table {
+    width: 100%;
+    border: "1";
+}
+
+
+.itemPrice {
+    text-align: right;
 }

@@ -78,11 +78,11 @@ Write a Node.js script to search for data from a JSON file.
  - [x] 20: Page has a full-width header with the site title "Grocer" and a button "Cart"
  - [x] 10: Site title "Grocer" is aligned to the left
  - [x] 10: "Cart" button is aligned to the right
- - [ ] 20: Page has a "Sections" sidebar with all sections for grocery items
- - [ ] 10: Page has a main content area showing each of the grocery items
- - [ ] 20: Main content lists all grocery items' name, price, and an "Add to cart" button
- - [ ] 20: Clicking on a section in the "Sections" sidebar will jump to that section
- - [ ] 10: Main content organizes all grocery items by section
+ - [x] 20: Page has a "Sections" sidebar with all sections for grocery items
+ - [x] 10: Page has a main content area showing each of the grocery items
+ - [x] 20: Main content lists all grocery items' name, price, and an "Add to cart" button
+ - [x] 20: Clicking on a section in the "Sections" sidebar will jump to that section
+ - [x] 10: Main content organizes all grocery items by section
 
  # Part 4 Quiz (50 points)
  Copy the questions below into a file part-4/quiz.md. Then, write your answer to each question directly below it.
