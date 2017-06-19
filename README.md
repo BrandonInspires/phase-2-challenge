@@ -2,7 +2,7 @@
 Phase 2 Interview Challenge (40 points)
 - [x] 10: Solution is in a public GitHub repository called phase-2-challenge.
 - [x] 10: Solution repository has 4 folders: part-1, part-2, and part-3, and part-4.
-- [ ] 20: Git history shows frequent commits.
+- [x] 20: Git history shows frequent commits.
 
 # Part 1 
 ## Show a weekday (60 points)
@@ -72,12 +72,12 @@ Write a Node.js script to search for data from a JSON file.
  # Part 3: HTML layout for grocery store (170 points)
  Requirements
 
- - [ ] 10: All files are stored under the part-3/ folder
- - [ ] 20: No third party CSS libraries are used (all code must be written from scratch)
- - [ ] 10: HTML and CSS are separated into their own files.
- - [ ] 20: Page has a full-width header with the site title "Grocer" and a button "Cart"
- - [ ] 10: Site title "Grocer" is aligned to the left
- - [ ] 10: "Cart" button is aligned to the right
+ - [x] 10: All files are stored under the part-3/ folder
+ - [x] 20: No third party CSS libraries are used (all code must be written from scratch)
+ - [x] 10: HTML and CSS are separated into their own files.
+ - [x] 20: Page has a full-width header with the site title "Grocer" and a button "Cart"
+ - [x] 10: Site title "Grocer" is aligned to the left
+ - [x] 10: "Cart" button is aligned to the right
  - [ ] 20: Page has a "Sections" sidebar with all sections for grocery items
  - [ ] 10: Page has a main content area showing each of the grocery items
  - [ ] 20: Main content lists all grocery items' name, price, and an "Add to cart" button
