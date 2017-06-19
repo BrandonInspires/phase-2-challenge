@@ -89,4 +89,4 @@ Write a Node.js script to search for data from a JSON file.
 
 The quiz is worth 50 points in total.
 
-570 points = 456 is passing.
+580 points = 464 is 80% and passing.
