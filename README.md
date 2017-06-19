@@ -66,8 +66,8 @@ Requirements
 # Part 2: Extract data from JSON file (80 points)
 Write a Node.js script to search for data from a JSON file.
 
- - [ ] 40: searchByName.js script prints the client id and rep_name for all clients whose rep_name starts with the provided name argument.
- - [ ] 40: searchByState.js script prints the client id, rep_name, company, city, and state that for all clients whose state matches the provided state argument.
+ - [x] 40: searchByName.js script prints the client id and rep_name for all clients whose rep_name starts with the provided name argument.
+ - [x] 40: searchByState.js script prints the client id, rep_name, company, city, and state that for all clients whose state matches the provided state argument.
 
  # Part 3: HTML layout for grocery store (170 points)
  Requirements
