@@ -1,7 +1,7 @@
 # phase-2-challenge
 Phase 2 Interview Challenge (40 points)
-- [ ] 10: Solution is in a public GitHub repository called phase-2-challenge.
-- [ ] 10: Solution repository has 4 folders: part-1, part-2, and part-3, and part-4.
+- [x] 10: Solution is in a public GitHub repository called phase-2-challenge.
+- [x] 10: Solution repository has 4 folders: part-1, part-2, and part-3, and part-4.
 - [ ] 20: Git history shows frequent commits.
 
 # Part 1 
