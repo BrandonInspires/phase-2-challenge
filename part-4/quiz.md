@@ -4,7 +4,7 @@ In the directories listed in the user's PATH (separated by :). So on my current 
 $ echo $PATH
 /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 ```
-On a UNIX computer, how do you stop a running process?
+- [x] On a UNIX computer, how do you stop a running process?
 ```bash
 $ ps
 PID TTY           TIME CMD
@@ -15,36 +15,48 @@ PID TTY           TIME CMD
 $ kill 26242
 ```
 
-What packages do you have installed via homebrew?
+- [x] What packages do you have installed via homebrew?
 ```bash
-Brandons-MacBook-Pro:~ brandongilchrist$ brew list
+$ brew list
 cask		gmp		icu4c		libtasn1	nettle		p11-kit		taskd
 emacs		gnutls		libffi		libunistring	node		task		tasksh
-Brandons-MacBook-Pro:~ brandongilchrist$ brew cask list
+
+$ brew cask list
 atom                           firefox                        google-chrome                  spectacle                      visual-studio-code-insiders
 brackets                       freesmug-chromium              google-chrome-canary           taskwarrior-pomodoro           vlc
 caffeine                       github-desktop                 iterm2                         transmission
 calibre                        go2shell                       screenhero                     visual-studio-code
-Brandons-MacBook-Pro:~ brandongilchrist$ 
 ```
 
-On a UNIX computer, how do you find the process id of a running process?
+- [x] On a UNIX computer, how do you find the process id of a running process?
+```bash
+$ ps 
+# OR
+$ top
+```
 
-In a terminal, what does control-c do?
+- [x] In a terminal, what does control-c do?
+```
+Kills to currently running process
+```
+- [x] In a terminal, what does control-a do?
+```
+Places the cursor at the beginning of the line
+```
+- [x] In a terminal, what does control-e do?
+```
+Places the cursor at the end of the line
+```
 
-In a terminal, what does control-a do?
+- [x] What keyboard shortcut do you use to split the screen in your editor?
 
-In a terminal, what does control-e do?
+- [x] What keyboard shortcut do you use to split the screen in your terminal?
 
-What keyboard shortcut do you use to split the screen in your editor?
+- [x] When a terminal command completes, how can you tell if it was successful or not?
 
-What keyboard shortcut do you use to split the screen in your terminal?
+- [x] What does your ~/.gitconfig have in it? (paste the whole file here)
 
-When a terminal command completes, how can you tell if it was successful or not?
-
-What does your ~/.gitconfig have in it? (paste the whole file here)
-
-What is the difference between a relative and absolute path?
+- [x] What is the difference between a relative and absolute path?
 
 Lets say you have the following file structure
 
