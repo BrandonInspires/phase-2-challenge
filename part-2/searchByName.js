@@ -4,6 +4,7 @@
  console.log('Finding Clients With Name "' + name + '"' );
  returnstuff.forEach(function(element) {
       console.log("id:", element.id);
+      console.log("rep_name:", element.rep_name);
  }, this);
  
 
