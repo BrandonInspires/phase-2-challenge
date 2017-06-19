@@ -3,13 +3,16 @@ function weekday(date) {
 }
 
 function snippet(string, maxlength) {
-
+return string.slice(0, maxlength)
 }
 
 function numProps(obj) {
-return Object.getOwnPropertyNames(obj).length
+return Object.getOwnPropertyNames.length
 }
 
-function filterBetween(array, min, max) {
-
+function filterBetween(arr, min, max) {
+return arr.filter(function(item){ return item >= min && item <= max})
 }
+
+const thisObject = {"key": "value", "anotherKey":"value"}
+let arr = [1, 2, 3, 4, 5, 6, 7]
