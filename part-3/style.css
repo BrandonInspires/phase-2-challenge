@@ -14,5 +14,13 @@ header {
 }
 
 nav {
+    height: 100vh;
+float: left;
+border: 2px solid blue;
+}
 
+article {
+    height: 100vh;
+    float: left;
+    border: 2px solid red;
 }
