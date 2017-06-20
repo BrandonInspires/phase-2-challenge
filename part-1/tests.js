@@ -1,6 +1,7 @@
 // snippet test
     console.assert(snippet("Hello World!", 7) === "Hello W")
     console.assert(snippet("Hello World!", 20) === "Hello World!")
+    console.assert(snippet(56, 20) === "Hello World!")
 
 // numProps test
     var thisObject = {"key": "value", "anotherKey":"value"}
@@ -19,6 +20,7 @@ let arr1 = [1, 2, 3, 4, 5, 6, 7]
 
 
 // weekday test
-
+var date1 = "Mon Jun 19 2017 21:29:01 GMT-0700 (PDT)"
+console.assert(weekday(date1) == "Monday", "Mon Jun 19 2017 21:29:01 GMT-0700 (PDT) is a Monday" )
 // console.assert(weekday(new Date())) // Start of new date test
 
