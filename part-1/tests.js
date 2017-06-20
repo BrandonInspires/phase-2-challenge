@@ -12,4 +12,9 @@
 
 // filterBetween test
 let arr1 = [1, 2, 3, 4, 5, 6, 7]
-    console.assert(filterBetween(arr1, 3, 6) === [ 3, 4, 5, 6 ], 'arr1 should return [ 3, 4, 5, 6 ]')
+    console.assert(filterBetween(arr1, 3, 6) === [3, 4, 5, 6], 'arr1 should return [ 3, 4, 5, 6 ]')
+
+
+// weekday test
+
+// console.assert(weekday(new Date())) // Start of new date test
