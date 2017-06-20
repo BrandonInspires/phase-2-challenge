@@ -32,7 +32,7 @@ return string.slice(0, maxlength)
 }
 
 function numProps(obj) {
-return Object.getOwnPropertyNames.length
+return Object.values(obj).length
 }
 
 function filterBetween(arr, min, max) {
