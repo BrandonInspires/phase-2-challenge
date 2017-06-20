@@ -10,9 +10,12 @@
     console.assert(numProps(anotherObject) == 5, 'anotherObject has 5 properties')
     console.assert(numProps(lastObject) == 3, 'lastObject has 3 properites ')
 
+/**
+ * JSON stringify method to compare arrays without having to import Underscore/LoDash etc
+ */
 // filterBetween test
 let arr1 = [1, 2, 3, 4, 5, 6, 7]
-    console.assert(filterBetween(arr1, 3, 6) === [3, 4, 5, 6], 'arr1 should return [ 3, 4, 5, 6 ]')
+    console.assert(JSON.stringify(console.log(filterBetween(arr1, 3, 6)) == [3, 4, 5, 6]) , 'arr1 should return [ 3, 4, 5, 6 ]')
 
 
 // weekday test
