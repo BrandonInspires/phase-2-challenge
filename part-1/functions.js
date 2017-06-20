@@ -1,3 +1,6 @@
+// Consider using the module pattern or interface pattern that Punit showed
+// to allow easier testing of two or more implementations of the same function
+
 function weekday(date) {
     switch (true) {
         case date.getDay() == 0:
@@ -25,6 +28,10 @@ function weekday(date) {
         return false;
         break;
     }
+}
+function weekday2(date)
+var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+console.log(days[date.getDay()]);
 }
 
 function snippet(string, maxlength) {
