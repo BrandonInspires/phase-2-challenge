@@ -1,6 +1,6 @@
 # phase-2-challenge
 
- # Current Completed Total 480/580 points (82.75%) 
+ # Current Completed Total 550/580 points (94.82%) 
 Phase 2 Interview Challenge (40 points)
 - [x] 10: Solution is in a public GitHub repository called phase-2-challenge.
 - [x] 10: Solution repository has 4 folders: part-1, part-2, and part-3, and part-4.
@@ -30,9 +30,9 @@ Write a function snippet(string, maxlength) that shortens the string given to th
 Requirements
 
  - [x] 10: A test using expected/valid inputs for the snippet() function is written in tests.js.
- - [ ] 10: A test using unexpected/invalid inputs for the snippet() function is written in tests.js.
+ - [x] 10: A test using unexpected/invalid inputs for the snippet() function is written in tests.js.
  - [x] 30: Correct implementation of the snippet() is defined in functions.js.
- - [ ] 10: Tests for snippet() are passing.
+ - [x] 10: Tests for snippet() are passing.
  
 ## Number of properties (60 points)
 
@@ -43,9 +43,9 @@ Write a function numProps(obj) that returns the number of properties an object h
 Requirements
 
  - [x] 10: A test using expected/valid inputs for the numProps() function is written in tests.js.
- - [ ] 10: A test using unexpected/invalid inputs for the numProps() function is written in tests.js.
+ - [x] 10: A test using unexpected/invalid inputs for the numProps() function is written in tests.js.
  - [x] 30: Correct implementation of the numProps() is defined in functions.js.
- - [ ] 10: Tests for numProps() are passing.
+ - [x] 10: Tests for numProps() are passing.
 
 ##  Filter between (60 points)
 ```
@@ -61,9 +61,9 @@ filterBetween(arr, 5, 10) // => [5, 6, 7]
 Requirements
 
  - [x] 10: A test using expected/valid inputs for the filterBetween() function is written in tests.js.
- - [ ] 10: A test using unexpected/invalid inputs for the filterBetween() function is written in tests.js.
+ - [x] 10: A test using unexpected/invalid inputs for the filterBetween() function is written in tests.js.
  - [x] 30: Correct implementation of the filterBetween() is defined in functions.js.
- - [ ] 10: Tests for filterBetween() are passing.
+ - [x] 10: Tests for filterBetween() are passing.
 
 # Part 2: Extract data from JSON file (80 points)
 Write a Node.js script to search for data from a JSON file.
