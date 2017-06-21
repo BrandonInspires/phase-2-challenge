@@ -29,22 +29,31 @@ function weekday(date) {
         break;
     }
 }
-function weekday2(date)
-var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-console.log(days[date.getDay()]);
-}
+// function weekday2(date)
+// var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+// console.log(days[date.getDay()]);
+// }
 
 function snippet(string, maxlength) {
+    if (typeof(string) != "string") {
+        return "Please enter a string as the first argument"
+    } else {
 return string.slice(0, maxlength)
-}
+}}
 
 function numProps(obj) {
+            if (typeof(arr) != "object") {
+        return "Please enter an object as the argument"
+    } else {
 return Object.values(obj).length
-}
+}}
 
 function filterBetween(arr, min, max) {
+        if (typeof(arr) != "array") {
+        return "Please enter an array as the first argument"
+    } else {
 return arr.filter(function(item){ return item >= min && item <= max})
-}
+}}
 
 const thisObject = {"key": "value", "anotherKey":"value"}
 let arr = [1, 2, 3, 4, 5, 6, 7]

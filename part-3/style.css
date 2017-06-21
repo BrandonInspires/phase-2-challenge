@@ -6,21 +6,23 @@ header {
     width: 100vw;
     border: 2px solid black;
 }
-
+/*
 .title {
 
-}
+}*/
 
 .cart {
     float: right;
+		margin-right: 40px;
 }
 
 nav {
     height: 100vh;
     width: 20vw;
     float: left;
-    border: 2px solid blue;
+    /*border: 2px solid black;*/
 }
+
 .navHeader {
     display: block;
     background-color: grey;
@@ -37,7 +39,7 @@ article {
     height: 100%;
     width: 70vw;
     float: left;
-    border: 2px solid red;
+    border-left: 2px solid black;
 }
 
 article button {
