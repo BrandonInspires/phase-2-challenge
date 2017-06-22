@@ -35,25 +35,16 @@ function weekday(date) {
 // }
 
 function snippet(string, maxlength) {
-<<<<<<< HEAD
     if (typeof (string) != "string") {
-        return "Please enter a string as the first argument"
+        return "Please enter a string as the first argument" // throw new Error
     } else if (maxlength > string.length) {
         return string.slice(0, maxlength)
     } else
         return console.log(string.slice(0, maxlength) + "...")
 }
-=======
-    if (typeof(string) != "string") {
-        return "Please enter a string as the first argument"
-    } else {
-return string.slice(0, maxlength)
-}}
->>>>>>> 11253725e5309264d893375eb848214ad56b2ad8
 
 
 function numProps(obj) {
-<<<<<<< HEAD
     if (typeof (arr) != "object") {
         return "Please enter an object as the argument"
     } else {
@@ -70,20 +61,6 @@ function filterBetween(arr, min, max) {
         })
     }
 }
-=======
-            if (typeof(arr) != "object") {
-        return "Please enter an object as the argument"
-    } else {
-return Object.values(obj).length
-}}
-
-function filterBetween(arr, min, max) {
-        if (typeof(arr) != "array") {
-        return "Please enter an array as the first argument"
-    } else {
-return arr.filter(function(item){ return item >= min && item <= max})
-}}
->>>>>>> 11253725e5309264d893375eb848214ad56b2ad8
 
 const thisObject = {
     "key": "value",
